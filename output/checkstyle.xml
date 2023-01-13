@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='Gemfile'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='5' column='0' severity='info' message='Bundler/OrderedGems: Gems should be sorted in an alphabetical order within their section of the Gemfile. Gem `rspec` should appear before `rubocop-rspec`.' source='com.puppycrawl.tools.checkstyle.Bundler/OrderedGems'/>
+  </file>
+  <file name='something.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `class Something`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='spec/spec_helper.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='49' column='0' severity='info' message='Style/BlockComments: Do not use block comments.' source='com.puppycrawl.tools.checkstyle.Style/BlockComments'/>
+  </file>
+</checkstyle>

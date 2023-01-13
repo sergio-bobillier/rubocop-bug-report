@@ -1,0 +1,20 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  TargetRubyVersion: 2.7
+  Exclude:
+    - 'vendor/**/*'
+Layout/LineLength:
+  Max: 120
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+Metrics/MethodLength:
+  Max: 15
+Style/Documentation:
+  Enabled: true
+Style/NumericLiterals:
+  Enabled: false
+Style/RedundantReturn:
+  Enabled: false
